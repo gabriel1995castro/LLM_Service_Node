@@ -1,0 +1,85 @@
+{
+    "context": "The intelligent walker operates in two modes: free navigation and assisted navigation. Use the examples below to understand when to activate each mode.",
+    "rules": {
+        "free_navigation": {
+            "description": "The user has full control over the walker.",
+            "conditions": [
+                "The user wants to walk without assistance.",
+                "The user does not request to be taken to a specific location.",
+                "The user wants to explore freely.",
+                "The user does not feel any discomfort during navigation.",
+                "The user wants to take control of navigation and no longer wants to use assisted navigation."
+            ],
+            "user_examples": [
+                "I want to walk alone.",
+                "Let me explore this place.",
+                "I want to control the walker by myself.",
+                "Disable assistance.",
+                "I don't need help walking anymore.",
+                "I will go on my own.",
+                "I don't want help anymore.",
+                "Turn off the navigation support.",
+                "I prefer walking without assistance.",
+                "I want to walk freely.",
+                "Let me walk normally.",
+                "I don't want the walker to adjust my trajectory.",
+                "Stop guiding me automatically.",
+                "I will decide where I go.",
+                "Disable the assistance function.",
+                "Don't direct me, I know the way.",
+                "I want to explore without restrictions.",
+                "I don't need the walker to make adjustments.",
+                "I will continue without assistance, thanks.",
+                "Turn off the trajectory correction function.",
+                "I will walk at my own pace."
+            ],
+            "value": true
+        },
+        "assisted_navigation": {
+            "description": "The walker automatically adjusts its trajectory to assist the user.",
+            "conditions": [
+                "The user needs assistance to maintain balance.",
+                "The user requests help to be taken to a location.",
+                "The user is lost and needs to be guided to a predefined path.",
+                "The device is being used during a rehabilitation procedure.",
+                "The user is still learning to use the device and needs a mobility tutorial."
+            ],
+            "user_examples": [
+                "I need help walking.",
+                "Take me to the hospital entrance.",
+                "I am lost, can you guide me?",
+                "Activate assisted mode.",
+                "I want the walker to take me to my chair.",
+                "Help me get to the reception.",
+                "I am having trouble walking, can you help?",
+                "Enable navigation support.",
+                "Direct me to where I need to go.",
+                "I am in rehabilitation, I need support.",
+                "I cannot walk alone, assist me.",
+                "I need the walker to correct my trajectory.",
+                "Adjust my route automatically.",
+                "I am learning to use this, can you guide me?",
+                "I want a mobility tutorial.",
+                "I feel insecure walking without assistance.",
+                "Take me to the doctor's office.",
+                "Guide me to the physical therapy section.",
+                "I need to go to the hospital pharmacy.",
+                "I am late for my appointment, can you take me?",
+                "Please guide me to the outpatient reception.",
+                "Take me to the nearest elevator.",
+                "I want to reach the waiting area of the clinic.",
+                "I need to go to the examination department.",
+                "Take me back home.",
+                "I want the walker to follow a predefined route.",
+                "I need to reach the hospital triage area.",
+                "I have no reference points, can you choose the best path for me?",
+                "Guide me out of the building.",
+                "Activate automatic assistance to navigate the hallways.",
+                "Help me find a safe exit.",
+                "Take me to a bench so I can rest.",
+                "I need to reach the nursing station."
+            ],
+            "value": false
+        }
+    }
+}
